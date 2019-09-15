@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/day00_继承_泛型.iml" filepath="$PROJECT_DIR$/src/day00_继承_泛型.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day_01单元测试_反射_注解/day_01单元测试_反射_注解.iml" filepath="$PROJECT_DIR$/day_01单元测试_反射_注解/day_01单元测试_反射_注解.iml" />
+    </modules>
+  </component>
+</project>
