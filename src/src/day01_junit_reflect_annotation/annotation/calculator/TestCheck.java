@@ -19,7 +19,7 @@ public class TestCheck {
         //获取类对象 类名.class与
 
         int number=0; //记录异常出现的次数
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("bug.txt")); //就
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("bug.txt"));
 
         //1.创建Calculator对象
         Calculator calculator = new Calculator();
@@ -33,12 +33,24 @@ public class TestCheck {
                 //5.有则执行
                 try {
                     method.invoke(calculator);
-                } catch (IllegalAccessException e) {
+                } catch (Exception e) {
                     //6.捕获异常
-                    e.printStackTrace();
+                    //e.printStackTrace();
+                    number++;
+                    bufferedWriter.write(method.getName()+"方法出现异常");
+                    bufferedWriter.newLine();
+                    bufferedWriter.write("出现异常的名称:"+e.getCause().getClass().getSimpleName());
+                    bufferedWriter.newLine();
+                    bufferedWriter.write("出现异常的原因："+e.getCause().getMessage());
+                    bufferedWriter.newLine();
+                    bufferedWriter.write("----------------");
+                    bufferedWriter.newLine();
                 }
             }
         }
+        bufferedWriter.write("本次测试一共出现了"+number+"次异常");
+        bufferedWriter.flush();        //刷新
+        bufferedWriter.close();        //关闭
     }
 
 }
