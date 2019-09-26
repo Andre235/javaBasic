@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245d341d-904d-4505-bf2e-7e9ec1058039" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/src/RegEx/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day00_Extends_Generics/Extends/Person1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day00_Extends_Generics/Extends/Person2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day00_Extends_Generics/Extends/SuperPerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day00_Extends_Generics/Extends/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day00_Extends_Generics/Generics泛型/GenericsClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day00_Extends_Generics/Generics泛型/GenericsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day00_Extends_Generics/Generics泛型/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day01_junit_reflect_annotation/annotation/AnnoDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day01_junit_reflect_annotation/annotation/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day01_junit_reflect_annotation/annotation/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day01_junit_reflect_annotation/annotation/FrameworkClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day01_junit_reflect_annotation/annotation/MyAnnotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day01_junit_reflect_annotation/annotation/MyAnnotation2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day01_junit_reflect_annotation/annotation/MyAnnotation3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day01_junit_reflect_annotation/annotation/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day01_junit_reflect_annotation/annotation/Pro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day00_继承_泛型/day01_junit_reflect_annotation/annotation/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day00_Extends_Generics/Extends/Person1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Extends/Person1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day00_Extends_Generics/Extends/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Extends/Person2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day00_Extends_Generics/Extends/SuperPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Extends/SuperPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day00_Extends_Generics/Extends/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Extends/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day00_Extends_Generics/Generics泛型/GenericsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Generics泛型/GenericsClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day00_Extends_Generics/Generics泛型/GenericsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Generics泛型/GenericsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day00_Extends_Generics/Generics泛型/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Generics泛型/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/AnnoDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/AnnoDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/Demo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/FrameworkClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/FrameworkClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/MyAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/MyAnnotation2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/MyAnnotation2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/MyAnnotation3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/MyAnnotation3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/Pro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/Pro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/calculator/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/calculator/Check.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/calculator/TestCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/annotation/calculator/TestCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/RegEx/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/RegEx/Demo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,14 +23,45 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/src/RegEx/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="312">
+              <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#166#190#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="2119" column="19" selection-start-line="2119" selection-start-column="19" selection-end-line="2119" selection-end-column="19" />
+              <folding>
+                <element signature="e#82616#82617#0" expanded="true" />
+                <element signature="e#82667#82668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/Generics泛型/GenericsClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day00_继承_泛型.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -141,10 +135,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="310" />
-    <option name="y" value="185" />
-    <option name="width" value="1300" />
-    <option name="height" value="665" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -154,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -178,13 +172,26 @@
               <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Extends" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Generics泛型" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="RegEx" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,7 +341,23 @@
       <workItem from="1568547253411" duration="1478000" />
       <workItem from="1569056808356" duration="88000" />
       <workItem from="1569504996079" duration="4392000" />
+      <workItem from="1569536925744" duration="2815000" />
     </task>
+    <task id="LOCAL-00001" summary="2019年9月27日06:29:50&#10;Java正则表达式">
+      <created>1569537031338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569537031338</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2019年9月27日06:29:50&#10;Java正则表达式">
+      <created>1569537136875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569537136875</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -355,13 +378,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39939000" />
+    <option name="totallyTimeSpent" value="42754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20978552" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3228106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,16 +393,16 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18838526" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6725" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3903819" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.33946252" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -426,6 +449,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019年9月27日06:29:50&#10;Java正则表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年9月27日06:29:50&#10;Java正则表达式" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -455,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/Generics泛型/GenericsClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/Generics泛型/GenericsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -480,9 +526,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/day01_单元测试_反射_注解/junit/CalculatorTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/day00_继承_泛型.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -717,13 +760,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/RegEx/demo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/RegEx/demo02.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/regex/Matcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -742,13 +779,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Java.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day00_继承_泛型.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Generics泛型/GenericsClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="2119" column="19" selection-start-line="2119" selection-start-column="19" selection-end-line="2119" selection-end-column="19" />
+          <folding>
+            <element signature="e#82616#82617#0" expanded="true" />
+            <element signature="e#82667#82668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/RegEx/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="312">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#166#190#0" expanded="true" />
           </folding>
         </state>
       </provider>

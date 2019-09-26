@@ -12,11 +12,37 @@ import java.util.regex.Pattern;
 public class Demo {
 
     public static void main(String[] args) {
-        /*demo1();
-        demo2();
-        demo3();*/
-        checkQQ("3134110000000000");
-        funcGroup();
+        //demo1();
+        //demo2();
+        //demo3();
+        //checkQQ("3134110000000000");
+        //funcGroup();
+        demo4("agx");
+    }
+
+    /**
+     * 案例2：判断一个字符串
+     * 由3个字母组成
+     * 第一个字母是 a/b/c
+     * 第二个字母是 d/e/f/g
+     * 第三个字母是 x/y/z
+     */
+    private static void demo4(String input) {
+        String regEx="[abc][edgf][xyz]";
+        System.out.println(input.matches(regEx));
+
+        //判断由a开头，至少有三个字符组成的字符串
+        String str1 = "asdfuj312s";
+        System.out.println(str1.matches("a.+"));
+
+        //判断由小写字母开头，数字结尾的字符串
+        String str2="a9";
+        System.out.println(str2.matches("[a-z].*[0-9]"));
+
+        //判断小数
+        String str3="0.4";
+        System.out.println(str3.matches("[0-9]+\\.\\d+"));  //此正则表达式没有考虑0000.1
+        System.out.println(str3.matches("[0]\\.\\d+")||str3.matches("[1-9]\\d+\\.\\d+")); //此正则表达式严谨
     }
 
     /**
