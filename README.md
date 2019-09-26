@@ -64,7 +64,7 @@
             如果注解只有一个属性，并且名称为value，则可以不写属性名称直接进行赋值
             进行数组赋值时，值用{}进行包裹
     2.4元注解：用于描述注解的注解
-        @Target：描述注解被保留的阶段
+        @Target：描述注解作用的位置
             @Target({ElementType.TYPE,ElementType.METHOD,ElementType.FIELD}) //表示该注解可以作用在类上、方法上、成员变量上
         @Retention：描述注解被保留的阶段(源码阶段、.class阶段、运行时阶段)
             @Retention(RetentionPolicy.RUNTIME)  // 当前被描述的注解会保留到class字节码文件中，并会被JVM虚拟机读取到
@@ -77,3 +77,8 @@
         3.2获取指定的注解
         3.3获取注解里面定义的值
 ~~~
+##Lambda表达式
+~~~
+1.Lambda表达式的标准格式
+    参数、箭头、代码 
+    (参数列表)->{代码}

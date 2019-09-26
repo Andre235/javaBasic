@@ -3,7 +3,7 @@ package annotation.calculator;
 /**
  * @author : 赵静超
  * @date Date : 2019/9/15 15:03
- * @description : 小明定义的计算器类，利用注解的方式测试里面的方法
+ * @description : 计算器类，利用注解的方式测试里面的方法
  */
 public class Calculator {
 
