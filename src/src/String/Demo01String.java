@@ -11,7 +11,7 @@ import java.util.Scanner;
  *                忽略大小写进行内容比较 strA.equalsIgnoreCase(stra)
  */
 @SuppressWarnings("all")
-public class Demo01 {
+public class Demo01String {
     public static void main(String[] args) {
         //funcEquals();
         //funcGet();

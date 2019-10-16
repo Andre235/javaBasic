@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="245d341d-904d-4505-bf2e-7e9ec1058039" name="Default Changelist" comment="">
+    <list default="true" id="245d341d-904d-4505-bf2e-7e9ec1058039" name="Default Changelist" comment="2019年10月2日07:23:54&#10;新增File包 Lambda包">
+      <change afterPath="$PROJECT_DIR$/src/src/Static/Demo01StaticField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/String/Demo02StringBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Static/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Static/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/String/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/String/Demo01String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/day02_lambda/demo01/Cook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/day02_lambda/demo01/Demo1.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,47 +26,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/src/RegEx/Demo.java">
+        <entry file="file://$PROJECT_DIR$/src/src/String/Demo02StringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+        <entry file="file://$PROJECT_DIR$/src/src/String/Demo01String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38874">
-              <caret line="2119" column="19" selection-start-line="2119" selection-start-column="19" selection-end-line="2119" selection-end-column="19" />
-              <folding>
-                <element signature="e#82616#82617#0" expanded="true" />
-                <element signature="e#82667#82668#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="722">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/Generics泛型/GenericsClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day00_继承_泛型.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -76,14 +56,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Extends/SuperPerson.java" />
-        <option value="$PROJECT_DIR$/src/Extends/Person1.java" />
-        <option value="$PROJECT_DIR$/src/Extends/TestClass.java" />
         <option value="$PROJECT_DIR$/src/Extends/Person2.java" />
         <option value="$PROJECT_DIR$/src/Generics/demo.java" />
         <option value="$PROJECT_DIR$/src/Generics泛型/demo.java" />
@@ -130,12 +108,17 @@
         <option value="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/calculator/TestCheck.java" />
         <option value="$PROJECT_DIR$/src/src/RegEx/demo02.java" />
         <option value="$PROJECT_DIR$/src/src/RegEx/Demo.java" />
+        <option value="$PROJECT_DIR$/src/src/Static/Student.java" />
+        <option value="$PROJECT_DIR$/src/src/Static/Demo01.java" />
+        <option value="$PROJECT_DIR$/src/src/Static/Demo01StaticField.java" />
+        <option value="$PROJECT_DIR$/src/src/String/Demo01String.java" />
+        <option value="$PROJECT_DIR$/src/src/String/Demo02StringBuilder.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -170,21 +153,7 @@
               <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Extends" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaBasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Generics泛型" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaBasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="RegEx" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,6 +185,7 @@
       <recent name="day01_单元测试_反射_注解.reflect" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitCode\javaBasic\src\src" />
       <recent name="F:\WorkSpace\IDEA\Java" />
       <recent name="F:\WorkSpace\IDEA\Java\src\src" />
     </key>
@@ -232,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.Demo02StringBuilder">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RegEx.Demo" />
       <module name="day00_继承_泛型" />
@@ -246,12 +216,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameworkClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.FrameworkClass" />
+    <configuration name="Demo01StaticField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Static.Demo01StaticField" />
       <module name="day00_继承_泛型" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.calculator.*" />
+          <option name="PATTERN" value="Static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo02StringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.Demo02StringBuilder" />
+      <module name="day00_继承_泛型" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,26 +281,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_junit_reflect_annotation.reflect.ReflectDemo3" />
-      <module name="day00_继承_泛型" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01_junit_reflect_annotation.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo02StringBuilder" />
+        <item itemvalue="Application.Demo01StaticField" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.ReflectDemo1" />
         <item itemvalue="Application.ReflectDemo0" />
-        <item itemvalue="Application.FrameworkClass" />
-        <item itemvalue="Application.ReflectDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -342,6 +312,10 @@
       <workItem from="1569504996079" duration="4392000" />
       <workItem from="1569536925744" duration="3226000" />
       <workItem from="1569599243343" duration="57000" />
+      <workItem from="1569972026525" duration="4168000" />
+      <workItem from="1570172147881" duration="2425000" />
+      <workItem from="1570623752407" duration="591000" />
+      <workItem from="1570803271764" duration="197000" />
     </task>
     <task id="LOCAL-00001" summary="2019年9月27日06:29:50&#10;Java正则表达式">
       <created>1569537031338</created>
@@ -364,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569540729294</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2019年10月2日07:23:54&#10;新增File包 Lambda包">
+      <created>1569972285077</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569972285077</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -385,12 +366,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43222000" />
+    <option name="totallyTimeSpent" value="50603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19101876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,7 +381,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6725" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31444758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3903819" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,23 +479,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019年9月27日06:29:50&#10;Java正则表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019年9月27日06:29:50&#10;Java正则表达式" />
+    <MESSAGE value="2019年10月2日07:23:54&#10;新增File包 Lambda包" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年10月2日07:23:54&#10;新增File包 Lambda包" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/Extends/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/Extends/Person2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -799,16 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/RegEx/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38874">
@@ -832,6 +791,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day00_继承_泛型.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/ArrayList/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/RegEx/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/day02_lambda/demo01/Cook.java" />
+    <entry file="file://$PROJECT_DIR$/src/src/day02_lambda/demo01/Demo1.java" />
+    <entry file="file://$PROJECT_DIR$/src/src/Lambda/demo01Cook/Cook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Lambda/demo01Cook/Demo01Cook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Static/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Static/Demo01StaticField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/String/Demo02StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/String/Demo01String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
