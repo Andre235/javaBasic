@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245d341d-904d-4505-bf2e-7e9ec1058039" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/src/Exception/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/Exception/Demo02Throw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo01SingleThread/Demo01Thread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo01SingleThread/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo02MultipleThread/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo02MultipleThread/TestThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo03MultipleThread/RunableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo03MultipleThread/TestThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo04InnerClassThread/TestThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo05ThreadSafe/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo05ThreadSafe/ThreadSafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo06Synchronized/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo06Synchronized/ThreadSafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo07Lock/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo07Lock/ThreadSafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo08WaitAndNotify/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo09WaitAndNotify/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo09WaitAndNotify/Test02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/String/Demo01String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/String/Demo01String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/MultipleThread/demo08WaitAndNotify/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/MultipleThread/demo08WaitAndNotify/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,16 +36,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo08WaitAndNotify/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            <state relative-caret-position="181">
+              <caret line="32" selection-start-line="32" selection-end-line="48" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo09WaitAndNotify/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo09WaitAndNotify/Test02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="56" column="54" lean-forward="true" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
               <folding>
-                <element signature="e#605#1028#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
-                <element signature="e#1069#1476#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1555#2186#0" expanded="true" />
+                <element signature="e#2185#2186#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo06Synchronized/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo06Synchronized/ThreadSafe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="method#saleTicket#0;class#ThreadSafe#0" />
               </folding>
             </state>
           </provider>
@@ -85,8 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/reflect/ReflectDemo2.java" />
-        <option value="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/reflect/ReflectDemo3.java" />
         <option value="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/reflect/FrameworkClass.java" />
         <option value="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/annoDemo1.java" />
         <option value="$PROJECT_DIR$/src/src/day01_junit_reflect_annotation/annotation/Person.java" />
@@ -136,6 +157,8 @@
         <option value="$PROJECT_DIR$/src/src/MultipleThread/demo06Synchronized/ThreadSafe.java" />
         <option value="$PROJECT_DIR$/src/src/MultipleThread/demo07Lock/ThreadSafe.java" />
         <option value="$PROJECT_DIR$/src/src/MultipleThread/demo08WaitAndNotify/Test.java" />
+        <option value="$PROJECT_DIR$/src/src/MultipleThread/demo09WaitAndNotify/Test.java" />
+        <option value="$PROJECT_DIR$/src/src/MultipleThread/demo09WaitAndNotify/Test02.java" />
       </list>
     </option>
   </component>
@@ -158,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -191,12 +213,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="MultipleThread" type="462c0819:PsiDirectoryNode" />
+              <item name="demo01SingleThread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MultipleThread" type="462c0819:PsiDirectoryNode" />
+              <item name="demo06Synchronized" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MultipleThread" type="462c0819:PsiDirectoryNode" />
+              <item name="demo07Lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MultipleThread" type="462c0819:PsiDirectoryNode" />
               <item name="demo08WaitAndNotify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MultipleThread" type="462c0819:PsiDirectoryNode" />
+              <item name="demo09WaitAndNotify" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,18 +274,19 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\GitCode\javaBasic\src\src\MultipleThread\demo07Lock" />
-      <recent name="F:\GitCode\javaBasic\src\src\MultipleThread\demo06Synchronized" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="day01_junit_reflect_annotation.annotation" />
-      <recent name="day01_单元测试_反射_注解.reflect" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\GitCode\javaBasic\src\src" />
       <recent name="F:\WorkSpace\IDEA\Java" />
       <recent name="F:\WorkSpace\IDEA\Java\src\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MultipleThread.demo09WaitAndNotify" />
+      <recent name="day01_junit_reflect_annotation.annotation" />
+      <recent name="day01_单元测试_反射_注解.reflect" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitCode\javaBasic\src\src\MultipleThread\demo07Lock" />
+      <recent name="F:\GitCode\javaBasic\src\src\MultipleThread\demo06Synchronized" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -245,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (3)">
+  <component name="RunManager" selected="Application.Test02">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MultipleThread.demo06Synchronized.Test" />
       <module name="day00_继承_泛型" />
@@ -285,12 +341,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultipleThread.demo05ThreadSafe.Test" />
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultipleThread.demo09WaitAndNotify.Test" />
       <module name="day00_继承_泛型" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MultipleThread.demo05ThreadSafe.*" />
+          <option name="PATTERN" value="MultipleThread.demo09WaitAndNotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,12 +354,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultipleThread.demo04InnerClassThread.TestThread" />
+    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultipleThread.demo09WaitAndNotify.Test02" />
       <module name="day00_继承_泛型" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MultipleThread.demo04InnerClassThread.*" />
+          <option name="PATTERN" value="MultipleThread.demo09WaitAndNotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,11 +369,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test02" />
+        <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestThread (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +404,8 @@
       <workItem from="1570803271764" duration="197000" />
       <workItem from="1571231434972" duration="266000" />
       <workItem from="1571538546515" duration="4744000" />
-      <workItem from="1571550985940" duration="17565000" />
+      <workItem from="1571550985940" duration="17619000" />
+      <workItem from="1571611126802" duration="1997000" />
     </task>
     <task id="LOCAL-00001" summary="2019年9月27日06:29:50&#10;Java正则表达式">
       <created>1569537031338</created>
@@ -385,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571231681465</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2019年10月20日22:28:50&#10;java多线程通信">
+      <created>1571581748370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571581748370</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -406,13 +470,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73178000" />
+    <option name="totallyTimeSpent" value="75229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20978552" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2124665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -421,7 +485,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.80594903" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3895184" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,38 +586,10 @@
     <MESSAGE value="2019年9月27日06:29:50&#10;Java正则表达式" />
     <MESSAGE value="2019年10月2日07:23:54&#10;新增File包 Lambda包" />
     <MESSAGE value="2019年10月16日21:14:10&#10;新增StringBuilder类" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019年10月16日21:14:10&#10;新增StringBuilder类" />
+    <MESSAGE value="2019年10月20日22:28:50&#10;java多线程通信" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年10月20日22:28:50&#10;java多线程通信" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/src/annotation/Demo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/annotation/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/annotation/AnnoDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/annotation/calculator/Check.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -802,14 +838,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo03MultipleThread.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo03MultipleThread.fxml" />
     <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo02MultipleThread/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -859,26 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo06Synchronized/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="e#192#216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo06Synchronized/ThreadSafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="method#saleTicket#0;class#ThreadSafe#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo07Lock/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -903,15 +912,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="745" column="16" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo08WaitAndNotify/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        <state relative-caret-position="181">
+          <caret line="32" selection-start-line="32" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo06Synchronized/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo06Synchronized/ThreadSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
-            <element signature="e#605#1028#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1069#1476#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="method#saleTicket#0;class#ThreadSafe#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo09WaitAndNotify/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/MultipleThread/demo09WaitAndNotify/Test02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="56" column="54" lean-forward="true" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+          <folding>
+            <element signature="e#1555#2186#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
           </folding>
         </state>
       </provider>

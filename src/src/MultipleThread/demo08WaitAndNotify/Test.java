@@ -16,22 +16,19 @@ public class Test {
         //创建锁对象，保证
         Object obj = new Object();
         //创建顾客线程（消费者）
-        new Thread(){
-            @Override
-            public void run() {
-                //创建同步代码块，保证等待和唤醒状态的唯一性
-                synchronized (obj){
-                    System.out.println("老板，我要两个豆沙包");
-                    try {
-                        obj.wait();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    //提供者线程唤醒之后，调用的方法
-                    System.out.println("好的，钱已经转过去了");
+        new Thread(() -> {
+            //创建同步代码块，保证等待和唤醒状态的唯一性
+            synchronized (obj){
+                System.out.println("老板，我要两个豆沙包");
+                try {
+                    obj.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+                //提供者线程唤醒之后，调用的方法
+                System.out.println("好的，钱已经转过去了");
             }
-        }.start();
+        }).start();
 
         //创建老板线程（提供者）
         new Thread(){
