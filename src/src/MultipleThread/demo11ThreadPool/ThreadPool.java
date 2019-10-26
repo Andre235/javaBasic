@@ -20,7 +20,5 @@ public class ThreadPool {
         executorService.submit(new RunableImpl());
         executorService.submit(new RunableImpl());
         executorService.submit(new RunableImpl());
-
     }
-
 }
