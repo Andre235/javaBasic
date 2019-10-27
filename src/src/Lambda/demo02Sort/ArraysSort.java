@@ -61,9 +61,4 @@ public class ArraysSort {
             System.out.println(person);
         }
     }
-
-
-
-
-
 }
