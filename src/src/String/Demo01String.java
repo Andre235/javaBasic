@@ -20,6 +20,7 @@ public class Demo01String {
         //funcReplace();
         //funcSplice();
         //demo();
+        lastIndexOfFun();
 
     }
 
@@ -137,4 +138,14 @@ public class Demo01String {
             System.out.println(s);
         }
     }
+
+    private static void lastIndexOfFun() {
+        String fileName = "188523.png";
+        Integer index = fileName.lastIndexOf(".");
+        System.out.println(index);
+        String substring = fileName.substring(index);
+        System.out.println(substring);
+    }
+
+
 }
