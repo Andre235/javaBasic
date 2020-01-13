@@ -70,7 +70,7 @@
             @Retention(RetentionPolicy.RUNTIME)  // 当前被描述的注解会保留到class字节码文件中，并会被JVM虚拟机读取到
         @Documented：描述注解是否被抽取到api文档中
         @Inherited：描述注解是否被继承
-          
+         
 3、在程序中使用(解析)注解：获取注解中定义的值
     步骤
         3.1获取注解定义位置的对象(类对象、方法对象、属性对象)

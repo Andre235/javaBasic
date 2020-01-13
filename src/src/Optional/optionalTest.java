@@ -1,5 +1,7 @@
 package Optional;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -10,7 +12,7 @@ import java.util.Optional;
  * @date : 2019/12/2
  * @description :
  */
-public class Test {
+public class optionalTest {
     public static void main(String[] args) {
 //        List<Student> studentList = initData();
 //        for (Student student : studentList) {
@@ -21,7 +23,15 @@ public class Test {
 //            }
 //        }
 
-        test();
+        //test();
+
+        Double d = null;
+        Double d1 = Optional.ofNullable(d).orElse(0.0);
+        System.out.println(d1);
+        Double d2 = Optional.ofNullable(d).orElseGet(() -> 0.0);
+        System.out.println(d2);
+
+
 
     }
 

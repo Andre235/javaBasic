@@ -17,13 +17,22 @@ public class localDateTime {
     public static void main(String[] args) throws ParseException {
         //funcLocalDate();
         //date2LocalDate();
-        Date date1 = new SimpleDateFormat("yyyy-MM-dd").parse("2020-02-08");
-        Date date2 = new SimpleDateFormat("yyyy-MM-dd").parse("2020-02-29");
-        System.out.println(isSameMonth(date1,date2));
+        SimpleDateFormat simpleDateFormat1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat simpleDateFormat2 = new SimpleDateFormat("HH:mm:ss");
 
-        LocalDate localDate = LocalDate.of(2020,1,8);
-        Date date = date2LocalDate(localDate);
-        System.out.println(date);
+        Date date1 = simpleDateFormat1.parse("2020-1-13"+" "+"15:43"+":00");
+        System.out.println("date1    "+date1);
+//        Date date2 = new SimpleDateFormat("yyyy-MM-dd").parse("2020-02-29");
+//        System.out.println(isSameMonth(date1,date2));
+//
+//        LocalDate localDate = LocalDate.of(2020,1,8);
+//        Date date = date2LocalDate(localDate);
+//        System.out.println(date);
+//
+//        System.out.println(getNowTime());
+//
+//        System.out.println(getThisDay());
+//        System.out.println("localDateTime转Date"+localDateTime2Date(getThisDay()));
     }
 
     private static void funcLocalDate() {
@@ -88,5 +97,21 @@ public class localDateTime {
 
         return year1 == year2 && month1 == month2;
     }
+
+    private static LocalDateTime getNowTime(){
+        return LocalDateTime.now();
+    }
+
+    private static LocalDateTime getThisDay(){
+        LocalDate localDate = LocalDate.now();
+        LocalTime localTime = LocalTime.of(0,0,0);
+        return LocalDateTime.of(localDate,localTime);
+    }
+
+    public static Date localDateTime2Date(LocalDateTime localDateTime){
+        return Date.from(localDateTime.atZone(ZoneId.systemDefault()).toInstant());
+    }
+
+
 
 }
